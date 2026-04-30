@@ -39,6 +39,22 @@ Aplikácia pokrýva workflow:
 - PyTorch  
 - NumPy
 
+
+
+## Spustenie projektu
+
+
+```bash
+pip install numpy
+pip install plotly
+pip install dash_bootstrap_components
+pip install diskcache
+pip install scipy
+pip install torch
+pip install dash[diskcache]
+python -m Frontend.app
+```
+
 # License
 
 This project is licensed under the GNU General Public License v3.0.
